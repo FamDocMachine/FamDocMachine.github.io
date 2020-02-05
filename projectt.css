@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+.first
+{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(500px, auto);
+    background: gray;
+    overflow: hidden;
+
+}
+.one
+{
+    background: red;
+    
+}
+.two
+{
+    background: black;
+    color: white;
+
+}
+.threes
+{
+    background: red;
+}

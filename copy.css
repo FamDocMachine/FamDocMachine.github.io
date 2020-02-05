@@ -1,0 +1,28 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-columns:repeat(9,1fr);
+    /* margin: 5 auto; */
+}
+.container div
+{
+    background: blue;
+    padding: 30px;
+    margin: 2px;
+    height: 50%;
+}
+.container div:hover
+{
+    background: white;
+    color: black;
+}
+
+.container div:nth-child(even)
+{
+    background: pink;
+}

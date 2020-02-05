@@ -1,0 +1,29 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+.menu
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 70px;
+}
+.menu div
+{
+    background: gray;
+    padding: 27px 25px;    
+}
+.menu div:hover
+{
+    margin-left: 2px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+.first
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}

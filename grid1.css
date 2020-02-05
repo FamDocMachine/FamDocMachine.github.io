@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+}
+.wrapper div
+{
+/* background: gray; */
+}
+.nested
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: 100px;
+    grid-gap: 1em;
+}
+.nested div
+{
+    background: red;
+    border: 2px solid black;
+    padding: 1em;
+    box-shadow: 5px 5px 5px 5px gray;
+}

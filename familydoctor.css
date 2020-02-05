@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background: #63599e;
+
+}
+.log
+{
+    position: relative;
+    top: 5px;
+    left: 8px;
+    height: 80%;
+    width: 90px;
+    background: url("yeh1.jpg");
+    background-size: cover;
+    overflow: hidden;
+    opacity: .6;
+}
+.text
+{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.medi
+{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .8;
+}
+#sidebar
+{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+}
+
+#sidebar.active
+{
+    left:   0px;
+    transition:2s;
+}
+#sidebar ul li
+{
+    color: white;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rbga(100,100,100,0.3);
+}
+
+#sidebar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+#sidebar .togglebtn
+{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+}
+#sidebar .togglebtn span
+{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+
+}

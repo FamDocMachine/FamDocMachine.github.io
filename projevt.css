@@ -1,0 +1,2409 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    /* background: rgba(0, 0, 0, 0.8); */
+   
+    scroll-behavior: smooth;
+    /* display: flex;    */
+}
+/* #scroll
+{
+    position: fixed;
+    bottom: 80px;
+    right: 90px;
+    width: 40px;
+    height: 20px;
+} */
+
+.top
+{
+    position: relative;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background: #00000080;
+    animation: tops 25s infinite;
+}
+    @keyframes tops
+    {
+        0%
+        {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        50%
+        {
+            background: rgba(0, 0, 0, 0.5);
+
+        }
+        100%
+        {
+            transition: .5s;
+            background: black;
+        }
+    }
+.logos
+{
+    
+    position: relative;
+    top: -10px;
+    left: 0px;
+    height: 110%;
+    width: 80px;
+    background-size: cover;
+    overflow: hidden;
+    opacity: .6;
+    z-index: auto;
+}
+.text1
+{
+    position: fixed;
+    top: 5px;
+    left: 40px;
+    height: 10%;
+    width: 10%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    /* z-index: 1000; */
+    z-index: 1000;
+    /* margin: 5px; */
+    z-index: 9999;
+}
+@media only screen and (max-width:1000px) {
+    header {
+        /* display: block; */
+      width: 100%;
+      padding: 10px 10px ;
+    }
+    
+  }
+.text2
+{
+    position: fixed;
+    top: 18px;
+    left: 125px;
+    height: 10%;
+    width: 10%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    /* opacity: .7; */
+    z-index: 9999;
+
+}
+.TEXT
+{
+    position: absolute;
+    top: 18px;
+    left: 210px;
+    height: 10%;
+    width: 10%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    /* opacity: .4; */
+
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    /* background: #2F89FC; */
+    /* background: black; */
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1000;
+    /* background: gray; */
+    animation: header 25s infinite;
+}
+    @keyframes header
+    {
+        0%
+        {
+            background: black;
+        }
+        50%
+        {
+            background: rgba(0, 0, 0, 0.5);
+
+        }
+        100%
+        {
+            transition: .5s;
+            background: black;
+        }
+    }
+header nav
+{
+    /* position: fixed; */
+    float: right;
+}
+header nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li
+{
+    list-style: none;
+    
+}
+header nav ul li a
+{
+    line-height: 60px;
+    padding: 0 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover,
+header nav ul li a.active
+
+{
+    margin-left: 2px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+@media only screen and (max-width:1000px) {
+    header {
+        /* display: block; */
+      width: 100%;
+      padding: 0;
+    }
+    
+  }
+.middle
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.photo
+{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    background: url("doctorjie.jpg");
+    background-size: cover;
+}
+.text3
+{
+    position: absolute;
+    top: 40%;
+     left: 2%;
+     width: 50%;
+     color: white;
+     font-family: sans-serif;
+     font-size: 50px;
+     z-index: 1;
+     font-weight: 800;
+}
+.end
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.poto
+{
+    position: absolute;
+    top: 668px;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    background: url("doctorjie1.jpg");
+    background-size: cover;
+}
+.text4
+{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 50%;
+    z-index: 1;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.texts
+{
+    position: relative;
+    top: 60px;
+    left: 430px;
+    color: #63599e;
+    height: 100px;
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.area
+{
+    position: relative;
+    line-height: 40px;
+    top: 20px;
+    left: 400px;
+    height: 403px;
+    width: 46.5%;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+    font-size: 20px;
+    background: white;
+    /* box-shadow: 5px 5px 10px 10px gray; */
+
+}
+.second
+{
+position: relative;
+margin-top: 10px;
+height: 600px;
+width: 100%;
+background: black;
+}
+.doctors
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background: url("doctors.jpg"); */
+    background-size: cover;
+    animation: hopes 25s infinite;
+}
+
+@keyframes hopes
+{
+    0%
+    {
+        background: url("doctors.jpg");     
+        background-size: cover;
+    }
+    50%
+    {
+        background: url("doctors1.jpg");
+        background-size: cover;
+
+    }
+    100%
+    {
+        background: url("banner.webp");
+        background-size: cover;
+    }
+}
+.help
+{
+    position: absolute;
+    height: 100px;
+   width: 390px;
+    top: 250px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 1.2;
+    display: block;
+    color: #2f89fc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: help 25s infinite;
+}
+    @keyframes help
+    {
+        0%
+        {
+            opacity: 1;
+        }
+       
+        50%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 0;
+        }
+    }
+.stay
+{
+    position: absolute;
+    height: 100px;
+    width: 424px;
+    top: 320px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: stay 25s infinite;
+}
+@keyframes stay
+    {
+        0%
+        {
+            opacity: 1;
+        }
+     
+        50%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 0;
+        }
+    }
+.hope
+{
+    position: absolute;
+    height: 100px;
+    width: 1100px;
+    top: 400px;
+    left: 340px;
+    font-size: 20px;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: hopi 25s infinite;
+}
+ @keyframes hopi
+ {
+     0%
+     {
+         opacity: 1;
+     }
+     
+     50%
+     {
+         opacity: 0;
+     }
+     100%
+     {
+         opacity: 0;
+     }
+ }
+.here
+{
+    position: absolute;
+    height: 100px;
+    width: 390px;
+    top: 250px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 1.2;
+    display: block;
+    color: #2f89fc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: care 25s infinite;
+}
+@keyframes care
+{
+    0%
+    {
+        opacity: 0;
+    }
+   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.about
+{
+    position: absolute;
+    height: 100px;
+    width: 484px;
+    top: 320px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: about 25s infinite;
+}
+ @keyframes about
+ {
+    0%
+    {
+        opacity: 0;
+    }
+   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }  
+ }
+ .your
+ {
+    position: absolute;
+    height: 100px;
+    width: 1100px;
+    top: 400px;
+    left: 340px;
+    font-size: 20px;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: your 25s infinite;
+}    
+@keyframes your
+{
+    0%
+    {
+        opacity: 0;
+    }
+   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.we
+{
+    position: absolute;
+    height: 100px;
+    width: 900px;
+    top: 320px;
+    left: 270px;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: we 25s infinite;
+    color: #63599e;
+}
+@keyframes we 
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.will
+{
+    position: absolute;
+    height: 100px;
+    width: 1100px;
+    top: 400px;
+    left: 270px;
+    font-size: 20px;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: will 25s infinite;
+    color: white;
+}
+ @keyframes will 
+ {
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+ }
+ .third
+ {
+     display: flex;
+    height: 300px;
+    width: 300px;
+    background: #2F89FC;
+    top: -50px;
+    left: 130px;     
+    /* box-shadow: 2px 2px 1px 1px black; */
+    opacity: .8;
+    float: left;
+    margin: 30px 30px 30px 30px;
+    /* padding:  */
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px 2px #ccc;
+ }
+
+ 
+ .head
+ {
+     position: absolute;
+     top: 50px;
+     left: 50px;
+     height: 30%;
+     width: 90%;
+     color: white;
+     font-size:30px;
+     font-weight: 100;
+     font-family: sans-serif;
+ }
+ .para
+ {
+     position: absolute;
+     top: 100px;
+     left: 30px;
+     height: 100%;
+     width: 80%;
+     font-size: 15px;
+     opacity: 10;
+ }
+ .fourth
+ {
+     display: flex;
+    height: 300px;
+    width: 300px;
+    background: #2F89FC;
+    top: -350px;
+    left: 450px;     
+    /* box-shadow: 10px 10px 5px 5px gray; */
+    margin: 30px 30px 30px 30px;
+    float: left;
+    animation: amine 0.5s;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px 2px #ccc;
+ }
+ 
+ .head1
+ {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 30%;
+    width: 90%;
+    color: white;
+    font-size:30px;
+    font-weight: 100;
+    font-family: sans-serif;
+}   
+.para1
+{
+    position: absolute;
+     top: 100px;
+     left: 30px;
+     height: 100%;
+     width: 80%;
+     font-size: 15px;
+     opacity: 10;
+}
+.fifth
+{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background: #2F89FC;
+    top: -650px;
+    left: 760px;     
+    /* box-shadow: 10px 10px 5px 5px gray; */
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px 2px #ccc;
+    opacity: .8;
+    animation: fifth 0.5s;
+    float: left;
+    margin: 30px 30px 30px 30px;
+
+}
+@keyframes fifth
+ {
+     0%
+     {
+         top: 100%;
+     }
+     50%
+     {
+         top: 50%;
+        animation-play-state: paused;
+     }
+     100%
+     {
+         transition: 3s;
+         top: 100%;
+     }
+ }
+.six
+{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background: #2F89FC;
+    top: 622px;
+    left: 1080px;     
+    /* box-shadow: 10px 10px 5px 5px gray; */
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px 2px #ccc;
+    float: left;
+    margin: 30px 30px 30px 30px;
+    animation: amine 5s;
+}
+@keyframes amine 
+{
+    0%
+    {
+        visibility: hidden;
+    }
+    50%
+    {
+        visibility: hidden;
+    }
+    100%
+    {
+        visibility: visible;
+    }
+}
+.outdoor
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 30%;
+    width: 90%;
+    color: white;
+    font-size:30px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.head2
+{
+    position: absolute;
+    top: 50px;
+    left: 34px;
+    height: 30%;
+    width: 90%;
+    color: white;
+    font-size:30px;
+    font-weight: 100;
+    font-family: sans-serif;
+
+}
+.par2
+{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 100%;
+    width: 80%;
+    font-size: 15px;
+}
+.services
+{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    height: 30%;
+    width: 90%;
+    color: white;
+    font-size:30px;
+    font-weight: 100;
+    font-family: sans-serif;  
+}
+.pa
+{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 100%;
+    width: 80%;
+    font-size: 15px;   
+}
+.star
+{
+    position: relative;
+    top: 200px;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background: url("star.jpg");
+    z-index: -1;
+}
+.star:hover
+{
+    transform:scale(1);
+
+}
+.heat
+{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    height: 100px;
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.button
+{
+    position: absolute;
+    /* display: flex; */
+    top: 300px;
+    left: 80%;
+    height: 50px;
+    width: 200px;
+    background: #Ff8000;
+    border-radius: 40px;
+}
+.ab{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 200px;
+    color: white;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+.next
+{
+    position: relative;
+    top: -100px;
+    left: 680px;
+    height: 100vh; 
+    width: 49%;
+    /* background: black; */
+    /* background: url("banner1.webp");
+    background-size: cover; */
+    overflow: hidden;
+    perspective: 50em;
+    box-sizing: border-box;
+    transition: .5s ease;
+    /* box-shadow: 5px 5px 10px 5px rgb(129, 216, 238); */
+    scroll-behavior: smooth;
+}
+.next .imgbox,
+.next .detail
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     box-sizing: border-box;
+     transition: .5s;
+}
+
+.next .imgbox
+{
+    top: 0;
+    left:0;
+}
+.next:hover .imgbox
+{
+    top: 0;
+    left: -100%;
+}
+.next .imgbox img
+{
+    width: 100%;
+}
+.next .detail
+{
+top:0;
+left: 100%;
+padding: 60px 30px;
+/* color: #2f89fc; */
+box-shadow: 10px 10px 10px 10px gray;
+border-bottom: 10px solid gray;
+/* background: #23b5b9 */
+
+/* background: black; */
+}
+.next:hover .detail
+{
+    top:0;
+    left: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.next .detail h1
+{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid black;
+}
+.next .detail p
+{
+    margin: 20px 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.next1
+{
+    position: absolute;
+    top: -2%;
+    left: 80%;
+    height: 100px;
+    width: 20%;
+}
+.next .next1 ul li{
+    list-style: none;
+}
+.next .next1 li a 
+{
+    color: #Ff8000;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.button1
+{
+    position: absolute;
+    /* display: flex; */
+    top: 10px;
+    left: 0%;
+    height: 50px;
+    width: 200px;
+    background: #Ff8000;
+    border-radius: 40px;
+}
+.mediciness
+{
+    position: relative;;
+    top:-520px;
+    left: 0;
+    height: 100px;
+    width: 50%;
+    /* background: gray; */
+}
+.medicine
+{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    height: 50px;
+    width: 30%;
+    color: #2f89fc;
+    padding: 80px 600px;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+   
+}
+.medicines
+{
+    position: relative;
+    top: 0px;
+    left: 0%;
+    height: 100vh;
+    width: 50%;
+    /* background: rgba(0, 0, 0, .1); */
+}
+.medicine1
+{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px;
+    height: 300px;
+    width: 30%;
+    background: white;
+    box-shadow: 5px 5px 10px 5px gray;
+    background: url("medicine1.jpg");
+    background-size: cover;
+    overflow: hidden;
+    /* margin: 200px auto; */
+    perspective: 50em;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+.medicine2
+{
+    position: absolute;
+    top: -10px;
+    left: 400px;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px;
+    height: 300px;
+    width: 30%;
+    background: white;
+    box-shadow: 5px 5px 10px 5px gray;
+    background: url("medicine2.jpg");
+    background-size: cover;
+    overflow: hidden;
+    /* margin: 200px auto; */
+    perspective: 50em;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+.medicine3
+{
+    position: absolute;
+    top: -10px;
+    left: 100%;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px;
+    height: 300px;
+    width: 30%;
+    background: white;
+    box-shadow: 5px 5px 10px 10px gray;
+    background: url("medicine3.jpg");
+    background-size: cover;
+    border: 1em black;
+    overflow: hidden;
+    /* margin: 200px auto; */
+    perspective: 50em;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+.medicine4
+{
+    position: absolute;
+    top: -10px;
+    left: 1100px;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px;
+    height: 300px;
+    width: 30%;
+    background: white;
+    box-shadow: 5px 5px 10px 10px gray;
+    background: url("medicine4.jpg");
+    background-size: cover;
+    overflow: hidden;
+    /* margin: 200px auto; */
+    perspective: 50em;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+
+.textbox
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    opacity: 1;
+    /* background: rgba(0, 0, 0, 0.;5);0 */
+    background: #23b5b9;
+    box-shadow: 2px 2px 5px 5px white;
+    padding: 10px 10px;
+    transform: rotateX(-110deg);
+    transform-origin: 50% 0%;
+    transition: 1s;
+    /* margin: 5px; */
+    overflow: hidden;
+    color: white;
+}
+.textbox h1,
+.textbox p
+{
+    line-height: 1.3em;
+}
+.medicine1:hover .textbox
+{
+    transform: rotateX(0deg);
+}
+.medicine2:hover .textbox
+{
+    transform: rotateX(0deg);
+}
+.medicine3:hover .textbox
+{
+    transform: rotateX(0deg);
+}
+.medicine4:hover .textbox
+{
+    transform: rotateX(0deg);
+}
+.medicinee 
+{
+position: relative;
+top: 580px;
+left: 0;
+height: 110vh;
+left: 0;
+/* background: #23b5b9; */
+}
+.recommeded
+{
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    height: 10%;
+    width: 50%;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.ask
+{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 3s;
+}
+.ask div
+{
+    width: 500px;
+font-size: 15px;
+font-weight: 100;
+/* background: red; */
+}
+.orde
+{
+   
+        position: absolute;
+        top: 350px;
+        left: 30px;
+        font-size: 18px;
+        font-weight: 600;
+}
+.orde div
+{
+        font-size: 15px;
+        font-weight: 100;
+        /* background: red; */
+        width: 500px;
+}
+.how
+{
+   
+        position: absolute;
+        top: 500px;
+        left: 30px;
+        font-size: 18px;
+        font-weight: 600;
+}
+.how div
+{
+        font-size: 15px;
+        font-weight: 100;
+        /* background: red; */
+        width: 500px;
+}
+.possibl
+{
+   
+        position: absolute;
+        top: 650px;
+        left: 30px;
+        font-size: 18px;
+        font-weight: 600;
+}
+.possibl div
+{
+        font-size: 15px;
+        font-weight: 100;
+        /* background: red; */
+        width: 500px;
+}
+.ttt {
+    position: relative;
+    top: -100px;
+    left: 0px;
+}
+.ttxt
+{
+    position: absolute;
+    top: -120px;
+    left: 410px;
+    color: #23b5b9;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.animate
+{
+    transition: 0.3s cubic-bezier(0.3,0,0,1.3);
+}
+.card
+{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    left: -1000px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 4500px;
+    width: 500px;
+}
+.card:hover{
+      height: 550px;
+      width: 500px;
+}
+.card:hover .cta_container
+{
+    display: inline;
+    /* margin-top: 380px; */
+}
+.card:hover .card_circle
+{
+    background-size: cover;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.card:hover h2
+{
+    color: white;
+}
+.card:hover p
+{
+    margin-top: 500px;
+}
+.card_circle{
+        background: url("heartattack.jpg") no-repeat center bottom;
+        background-size:100% 100%;
+        border-radius: 50%;
+        height: 400px;
+        margin-left: -270px;
+        margin-top: -270px;
+        position: relative;
+
+        width: 250px;
+}
+h2
+{
+    color: #3487f7;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.card:hover h2
+{
+    background: #3487f7;
+    color: white;
+    margin-top: -10px;
+    padding: 5px;
+    transition: 3s;
+}
+p
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+        text-align: center;
+        z-index: 9999;
+}
+.cta_container
+{
+    display: none;
+    margin-top: 320px;
+     position: absolute;
+     text-align: center;
+     width: 100%;
+     z-index: 9999;
+}
+.card1
+{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    left: 10px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 4500px;
+    width: 500px;
+}
+.card1:hover{
+      height: 550px;
+      width: 500px;
+}
+.card1:hover .cta_container
+{
+    display: inline;
+    /* margin-top: 380px; */
+}
+.card1:hover .card_circle
+{
+    background-size: cover;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.card1:hover h2
+{
+    color: white;
+}
+.card1:hover p
+{
+    margin-top: 500px;
+}
+.card_circle{
+        background: url("heartattack.jpg") no-repeat center bottom;
+        background-size:100% 100%;
+        border-radius: 50%;
+        height: 400px;
+        margin-left: 20px;
+        margin-top: -270px;
+        position: relative;
+
+        width: 450px;
+}
+.card_circles{
+    background: url("stoma.jpg") no-repeat center bottom;
+    background-size:100% 100%;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: -270px;
+    position: relative;
+
+    width: 450px;
+}
+
+.card1:hover .card_circles
+{
+    background-size: cover;
+    border-radius: 0;
+    margin-top: 80px;
+    background-size: 100% 100%;
+}
+
+h2
+{
+    color: #3487f7;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.card1:hover h2
+{
+    background: #3487f7;
+    color: white;
+    margin-top: -10px;
+    padding: 5px;
+    transition: 3s;
+}
+p
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+        text-align: center;
+        z-index: 9999;
+}
+.cta_container
+{
+    display: none;
+    margin-top: 320px;
+     position: absolute;
+     text-align: center;
+     width: 100%;
+     z-index: 9999;
+}
+.card2
+{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    left: 1020px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 4500px;
+    width: 500px;
+}
+.card2:hover{
+      height: 550px;
+      width: 600px;
+}
+.card2:hover .cta_container
+{
+    display: inline;
+    /* margin-top: 380px; */
+}
+.card2:hover .card_c
+{
+    
+    background-size: 100% 100%;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.card2:hover h2
+{
+    color: white;
+}
+.card2:hover p
+{
+    margin-top: 500px;
+}
+.card_c{
+         background: url("blood.jpg") no-repeat center bottom;
+        background-size:100% 100%;
+        border-radius: 50%;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: -270px;
+        position: absolute;
+
+        width: 250px;
+}
+h2
+{
+    color: #3487f7;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.card2:hover h2
+{
+    background: #3487f7;
+    color: white;
+    margin-top: -10px;
+    padding: 5px;
+    transition: 3s;
+}
+p
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+        text-align: center;
+        z-index: 9999;
+}
+.card3
+{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    left: -1000px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 5500px;
+    width: 500px;
+}
+.card3:hover{
+      height: 550px;
+      width: 500px;
+}
+.card3:hover .cta_container
+{
+    display: inline;
+    /* margin-top: 380px; */
+}
+.card3:hover .card_cr
+{
+    
+    background-size: 100% 100%;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.card3hover h2
+{
+    color: white;
+}
+.card3:hover p
+{
+    margin-top: 500px;
+}
+.card_cr{
+         background: url("low.jpg") no-repeat center bottom;
+        background-size:100% 100%;
+        border-radius: 50%;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: -270px;
+        position: absolute;
+
+        width: 250px;
+}
+h2
+{
+    color: #3487f7;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.card3:hover h2
+{
+    background: #3487f7;
+    color: white;
+    margin-top: -10px;
+    padding: 5px;
+    transition: 3s;
+}
+p
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+}
+.card4
+{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    left: 10px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 5500px;
+    width: 500px;
+}
+.card4:hover{
+      height: 550px;
+      width: 500px;
+}
+.card4:hover .cta_container
+{
+    display: inline;
+    /* margin-top: 380px; */
+}
+.card4:hover .card_c4
+{
+    
+    background-size: 100% 100%;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.card4hover h2
+{
+    color: white;
+}
+.card4:hover p
+{
+    margin-top: 500px;
+}
+.card_c4{
+         background: url("stress.jpg") no-repeat center bottom;
+        background-size:100% 100%;
+        border-radius: 50%;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: -270px;
+        position: absolute;
+
+        width: 250px;
+}
+h2
+{
+    color: #3487f7;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.card4:hover h2
+{
+    background: #3487f7;
+    color: white;
+    margin-top: -10px;
+    padding: 5px;
+    transition: 3s;
+}
+p
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+}
+.card5
+{
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    left: 1020px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 5500px;
+    width: 500px;
+}
+.card5:hover{
+      height: 550px;
+      width: 500px;
+}
+.card5:hover .cta_container
+{
+    /* display: inline; */
+    margin-top: 380px;
+}
+.card5:hover .card_c5
+{
+    
+    background-size: 100% 100%;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.card5hover h2
+{
+    color: white;
+}
+.card5:hover p
+{
+    margin-top: 500px;
+}
+.card_c5{
+         background: url("sugar.jpg") no-repeat center bottom;
+        background-size:100% 100%;
+        border-radius: 50%;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: -270px;
+        position: absolute;
+
+        width: 250px;
+}
+h2
+{
+    color: #3487f7;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.card5:hover h2
+{
+    background: #3487f7;
+    color: white;
+    margin-top: -10px;
+    padding: 5px;
+    transition: 3s;
+}
+p
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+}
+#healthtips
+{
+    position: relative;
+    top: 910px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    /* background: gray; */
+}
+.ourhealth
+{
+    position: absolute;
+    top: 1.25rem;
+    left: 1.625rem;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    z-index: 9999;
+    height: 3rem;
+    width: auto;
+    font-family: Charter,Georgia,Times,Serif;
+    line-height: 1.6;
+    padding: 0px 0px 5px;
+}
+video
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.menu2
+{
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    /* background: #2F89FC; */
+    /* background: black; */
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1000;
+    background: #d2232e;
+    /* background: gray; */
+}
+.menu2 nav
+{
+    /* position: fixed; */
+    float: right;
+}
+.menu2 nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu2 nav ul li
+{
+    list-style: none;
+    
+}
+.menu2 nav ul li a
+{
+    line-height: 60px;
+    padding: 0 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    font-weight: 1000;
+    line-height: 4.3;
+}
+.menu2 nav ul li a:hover,
+.menu2 nav ul li a.active
+
+{
+    margin-left: 2px;
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+#fitness
+{
+    position: absolute;
+    top: 900px;
+    left: 20px;
+    height: 150px;
+    width: 100%;
+    /* background: black; */
+}
+.fitnesstext
+{
+    position: absolute;
+    top: 20px; left: 250px;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
+}
+.fitnesstext:hover
+{
+    color: #d2232e;
+}
+.line
+{
+    position: absolute;
+    top: 60px;
+    left: 650px;
+    height: 10px;
+    width: 40%;
+    background: #d2232e;
+}
+.fitness1
+{
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    height: 400px;
+    width: 400px;
+    background: url("fitness1.jpg");
+    background-size: cover;
+}
+.fitness1 a 
+{
+    position: absolute;
+    top: 430px;
+    left: 20px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.fitness1 a:hover
+{
+    color: #d2232e;
+}
+.fitness2
+{
+    position: absolute;
+    top: 190px;
+    left: 690px;
+    height: 400px;
+    width: 400px;
+    background: url("cycle.jpg");
+    background-size: cover;
+}
+.fitness2 a 
+{
+    position: absolute;
+    top: 430px;
+    left: 20px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.fitness2 a:hover
+{
+    color: #d2232e;   
+}
+.rest
+{
+    position: absolute;
+    top: 1700px;
+    left: 130px;
+    height: 600px;
+    width: 80%;
+    background: url("rest.jpg");
+    background-size: cover;
+    /* box-shadow: 1px 1px 1px 10px rgba(0, 0, 0, 0.6); */
+}
+.white
+{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    height: 560px;
+    width: 90%;
+    /* background: gray; */
+
+}
+.whites
+{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    -webkit-font-smoothing: subpixle-kntikliksed;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px 20px;
+    line-height: 1.2em;
+    width: 500px;
+    /* background: #2F89FC; */
+}
+.restlavo
+{
+    position: absolute;
+    top: 2400px;
+    left: 420px;
+    height: 100px;
+    width: 700px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.lines
+{
+    border-bottom: black;
+    position: absolute;
+    top: 5750px;
+    height: 10px;
+    width: 80%;
+    left: 110px;
+    /* color: black; */
+    box-shadow: 5px 5px 5px 5px white;
+    background: gray
+}
+.entertainment
+{
+    position: relative;
+    top: 2800px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.entertainmenttext
+{
+    position: absolute;
+    top: 20px; left:100px;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
+}
+.entertainmenttext:hover
+{
+    color: #d2232e;
+}
+.line1
+{
+    position: absolute;
+    top: 60px;
+    left: 850px;
+    height: 10px;
+    width: 30%;
+    background: #d2232e;
+}
+.fan
+{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    height: 500px;
+    width: 1200px;
+    background: #efebde;
+}
+.fan div img
+{
+    position: relative;
+    top: 0px;
+    left: 690px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    float: left;
+}
+.fantext
+{
+    position: absolute;
+    top: 10px; 
+    left: 0px;
+    height: 100px; 
+    width: 520px;
+    color: black;
+    font-size: 50px;
+    padding: 100px 100px;
+}
+.fantext:hover
+{
+    color: #d2232e;
+}
+.fantext div
+{
+    position: absolute;
+    font-size: 20px;
+
+}
+.linese
+{
+    position: absolute;
+    border-bottom: black;
+    position: absolute;
+    top: 620px;
+    height: 10px;
+    width: 106%;
+    left: -140px;
+    /* color: black; */
+    box-shadow: 5px 5px 5px 5px white;
+    /* box-shadow: 10px 10px 10px 10px black; */
+    background: gray
+
+}
+.food
+{
+    position: relative;
+    top: 2900px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.foodanddiet
+{
+    position: absolute;
+    top: 10px; 
+    left: 0px;
+    height: 100px; 
+    width: 620px;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
+    padding: 100px 100px;
+}
+.foodanddiet:hover
+{
+    color: #d2232e;
+}
+.line2
+{
+    position: absolute;
+    top: 146px;
+    left: 690px;
+    height: 10px;
+    width: 40%;
+    background: #d2232e;
+}
+.foodpic
+{
+    position: absolute;
+    top: 300px;
+    left: 90px;
+    height: 300px;
+    width: 400px;
+    background: gray;
+    background: url("foodpic.jpg");
+    background-size: cover;
+}
+.foodpic a 
+{
+    position: absolute;
+    top: 330px;
+    left: 10px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.foodpic a:hover
+{
+    color: #d2232e;
+}
+.foodpic2
+{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    height: 300px;
+    width: 400px;
+    background: gray;
+    background: url("foodpic2.png");
+    background-size: cover;
+}
+.foodpic2 a 
+{
+    position: absolute;
+    top: 330px;
+    left: 10px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.foodpic2 a:hover
+{
+    color: #d2232e;
+}
+.foodpic3
+{
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    height: 300px;
+    width: 400px;
+    background: gray;
+    background: url("foodpic3.jpg");
+    background-size: cover;
+}
+.foodpic3 a 
+{
+    position: absolute;
+    top: 330px;
+    left: 10px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.foodpic3 a:hover
+{
+    color: #d2232e;
+}
+.linest
+{
+    position: absolute;
+    border-bottom: black;
+    position: absolute;
+    top: 820px;
+    height: 10px;
+    width: 80%;
+    left: 100px;
+    /* color: black; */
+    box-shadow: 5px 5px 5px 5px white;
+    background: gray
+
+
+}
+.health
+{
+    position: relative;
+    top: 3100px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.healthtext
+{
+    position: absolute;
+    top: 10px; 
+    left: 100px;
+    height: 100px; 
+    width: 620px;
+    color: black;
+    font-size: 80px;
+    font-weight: 900;
+    padding: 100px 100px;
+}
+.lines3
+{
+    position: absolute;
+    top: 146px;
+    left: 690px;
+    height: 10px;
+    width: 40%;
+    background: #d2232e;
+}
+.healthpic1
+{
+    position: absolute;
+    top: 300px;
+    left: 90px;
+    height: 300px;
+    width: 400px;
+    background: gray;
+    background: url("healthpic1.jpg");
+    background-size: cover;
+}
+.healthpic1 a 
+{
+    position: absolute;
+    top: 330px;
+    left: 10px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.healthpic2
+{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    height: 300px;
+    width: 400px;
+    background: gray;
+    background: url("healthpic2.jpg");
+    background-size: cover;
+}
+.healthpic2 a 
+{
+    position: absolute;
+    top: 330px;
+    left: 10px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.healthpic1 a:hover
+{
+    color: #d2232e;
+}
+.healthpic2 a:hover
+{
+    color: #d2232e;
+}
+.healthpic3 a:hover
+{
+    color: #d2232e;
+}
+.healthpic3
+{
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    height: 300px;
+    width: 400px;
+    background: gray;
+    background: url("healthpic3.jpg");
+    background-size: cover;
+}
+.healthpic3 a 
+{
+    position: absolute;
+    top: 330px;
+    left: 10px; 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+.linesh
+{
+    position: absolute;
+    border-bottom: black;
+    position: absolute;
+    top: 800px;
+    height: 10px;
+    width: 80%;
+    left: 100px;
+    /* color: black; */
+    box-shadow: 5px 5px 5px 5px white;
+    background: gray
+}
+.logoh img
+{
+    position: absolute;
+    top: 736px;
+    left: 100px;
+    height: 150px;
+    width: 150px;
+    /* background: black; */
+    z-index: 9999;
+}
+.contact-title
+{
+    position: relative;
+    top:2800px;
+    left: 420px;
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    color: black;
+}
+.contact-title h1
+{
+    position: relative;
+    top: 490px;
+    left: 250px;
+    font-size: 32px;
+    line-height: 10px;
+    height: 50px;
+    width: 50%;
+}
+.contact-title h2
+{
+    position: relative;
+    top: 360px;
+    left: -60px;
+    font-size: 16px;
+    height: 5px;
+    width: 50%;
+    color: black;
+}
+form
+{
+    position: relative;
+    top: 3600px;
+    left: 100px;
+    width: 40%;
+    height: 400px;
+    /* background: gray; */
+
+}
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    
+    /* color: white; */
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input
+{
+    height: 45px;
+    /* color: aqua; */
+}
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+form .submit:hover
+{   
+    background-color: #f44336;
+    cursor: pointer;
+}
+.feedbackpic
+{
+    position: relative;
+    top: 3000px;
+    left: 750px;
+    height: 500px;
+    width: 50%;
+    background: gray;
+    background: url("feedbackk.png");
+    background-size: cover;
+}
+.y
+{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    height: 20px;
+    width: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    animation: y 5s infinite ;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    color: black;
+}
+@keyframes y
+{
+    0%
+    {
+        opacity: 0;
+        top: 0;
+    }
+    50%
+    {
+        opacity: 1;
+        top: 200px;
+    }
+    75%
+    {
+        opacity: 0.5;
+        top: 130px;
+        color: white;
+    }
+    100%
+    {
+        opacity: 1;
+        top: 100px;
+    }
+}
+.f
+{
+    position: absolute;
+    top: 100px;
+    left: 290px;
+    height: 20px;
+    width: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    /* animation: f 10s infinite; */
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    color: black;
+    animation: f 5s infinite;
+}
+@keyframes f
+{
+    0%
+    {
+        opacity: 0;
+        top: 0;
+    }
+    50%
+    {
+        opacity: 1;
+        top: 200px;
+    }
+    75%
+    {
+        opacity: 0.5;
+        top: 290px;
+        color: white;
+    }
+    100%
+    {
+        opacity: 1;
+        top: 100px;
+    }
+}
+
+.p
+{
+    position: absolute;
+    top: 100px;
+    left: 490px;
+    height: 20px;
+    width: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    /* animation: p 10s infinite; */
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    color: black;
+    animation: p 5s infinite;
+}
+@keyframes p
+{
+    0%
+    {
+        opacity: 0;
+        top: 0;
+        animation-play-state: paused;
+        
+    }
+    50%
+    {
+        opacity: 1;
+        top: 200px;
+    }
+    75%
+    {
+        opacity: 0.5;
+        top: 90px;
+        animation-play-state: paused;
+        color: white;
+    }
+    100%
+    {
+        opacity: 1;
+        top: 100px;
+    }
+}

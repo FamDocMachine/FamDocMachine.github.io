@@ -1,0 +1,35 @@
+.tips header nav
+{
+    /* position: fixed; */
+    float: right;
+}
+.tips header nav ul
+{
+    margin: 0;
+    padding: 500px 100px;
+    display: flex;
+    /* display: block; */
+}
+.tips header nav ul li
+{
+    list-style: none;
+    
+}
+.tips header nav ul li a
+{
+    line-height: 60px;
+    padding: 0px 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.tips header nav ul li a:hover
+{
+    color: black;
+    background: white;
+    box-shadow: 10px 10px 10px 2px black;
+}
+.pic1
+{
+    
+}

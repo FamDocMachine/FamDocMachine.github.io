@@ -1,0 +1,22 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.main
+{
+    display: grid;
+    grid-template-rows: repeat(1,2fr);
+    background: gray;
+}
+.first
+{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
+.first1
+{
+    display: grid;
+    
+}
+

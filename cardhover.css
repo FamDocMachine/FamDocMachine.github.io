@@ -1,0 +1,27 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background: lightslategray;
+}
+.card
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 200px;
+    transform: translate(-50%,50%);
+    box-shadow: rgba(0, 0, 0, .8);
+}
+.content
+{
+    position: absolute;
+    top: 3
+    0%;
+    left: 50%;
+    height: 200px;
+    width: 400px;
+    transform: translate(-50%,50%);
+    
+}

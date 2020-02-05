@@ -1,0 +1,366 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.menu
+{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows: minmax(60px, auto);
+    background: #00000080;
+
+    background: rgba(0, 0, 0, 0.5);
+    grid-gap: 1em;
+    position: fixed;
+    width: 100%;
+}
+.menu div
+{
+    padding: 20px;
+    color: white;
+    grid-gap: 1em;
+}
+.menu a
+{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: block;
+    display: grid;
+}
+.menu div:hover
+
+{
+    color: black;
+    background: white;
+    transition: 0.3s;
+}
+.menu div a:hover
+{
+    color: black;
+}
+.doctor
+{
+    display: grid;
+    /* grid-gap: 1em; */
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: minmax(700px, auto);
+    background: #00000080;
+    animation: hopes 25s infinite;
+    background-size: cover;
+}
+@keyframes hopes
+{
+    0%
+    {
+        background: url("doctors.jpg");     
+        background-size: cover;
+    }
+    50%
+    {
+        background: url("doctors1.jpg");
+        background-size: cover;
+
+    }
+    100%
+    {
+        background: url("banner.webp");
+        background-size: cover;
+        /* background: black; */
+    }
+}
+
+.help
+{
+    position: absolute;
+    height: 100px;
+    width: 390px;
+    top: 250px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 1.2;
+    display: block;
+    color: #2f89fc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: help 25s infinite;
+}
+    @keyframes help
+    {
+        0%
+        {
+            opacity: 1;
+        }
+       
+        50%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 0;
+        }
+    }
+.stay
+{
+    position: absolute;
+    height: 100px;
+    width: 424px;
+    top: 320px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: stay 25s infinite;
+}
+@keyframes stay
+    {
+        0%
+        {
+            opacity: 1;
+        }
+     
+        50%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 0;
+        }
+    }
+.hope
+{
+    position: absolute;
+    height: 100px;
+    width: 1100px;
+    top: 400px;
+    left: 340px;
+    font-size: 20px;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: hopi 25s infinite;
+}
+ @keyframes hopi
+ {
+     0%
+     {
+         opacity: 1;
+     }
+     
+     50%
+     {
+         opacity: 0;
+     }
+     100%
+     {
+         opacity: 0;
+     }
+ }
+.here
+{
+    position: absolute;
+    height: 100px;
+    width: 390px;
+    top: 250px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 1.2;
+    display: block;
+    color: #2f89fc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: care 25s infinite;
+}
+@keyframes care
+{
+    0%
+    {
+        opacity: 0;
+    }
+   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.about
+{
+    position: absolute;
+    height: 100px;
+    width: 484px;
+    top: 320px;
+    left: 340px;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: about 25s infinite;
+}
+ @keyframes about
+ {
+    0%
+    {
+        opacity: 0;
+    }
+   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }  
+ }
+ .your
+ {
+    position: absolute;
+    height: 100px;
+    width: 1100px;
+    top: 400px;
+    left: 340px;
+    font-size: 20px;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: your 25s infinite;
+}    
+@keyframes your
+{
+    0%
+    {
+        opacity: 0;
+    }
+   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+.we
+{
+    position: absolute;
+    height: 100px;
+    width: 900px;
+    top: 320px;
+    left: 270px;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: we 25s infinite;
+    color: #63599e;
+}
+@keyframes we 
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.will
+{
+    position: absolute;
+    height: 100px;
+    width: 1100px;
+    top: 400px;
+    left: 270px;
+    font-size: 20px;
+    font-weight: 1000;
+    opacity: 0.7;
+    animation: will 25s infinite;
+    color: black;
+}
+ @keyframes will 
+ {
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+ }
+ .third
+ {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: minmax(300px, auto);
+     grid-gap: 2em;
+     /* background: white; */
+     /* margin: 10px; */
+     box-shadow: 10px 10px 10px 10px gray;
+     margin: 30px 30px 30px 30px;
+
+ }
+ 
+ .para
+ {
+     display: grid;
+     font-size: 15px;
+     padding: 20px;
+ }
+ .one
+ {
+     display: grid;
+     grid-template-columns: 1fr;
+     /* background: #2F89FC; */
+     background: #2F89FC;
+     /* margin-right: 20px; */
+     color: white;
+     font-size:30px;
+     font-weight: 100;
+     font-family: sans-serif;
+     padding: 40px;
+ }
+.two
+{
+   background: #2F89FC;
+   color: white;
+     font-size:30px;
+     font-weight: 100;
+     font-family: sans-serif;
+     padding: 40px;
+
+}
+.three
+{
+    background: #2F89FC;
+    color: white;
+     font-size:30px;
+     font-weight: 100;
+     font-family: sans-serif;
+     padding: 40px;
+
+}
+.four
+{
+    background: #2F89FC;
+    color: white;
+     font-size:30px;
+     font-weight: 100;
+     font-family: sans-serif;
+     padding: 40px;
+
+}
+ 

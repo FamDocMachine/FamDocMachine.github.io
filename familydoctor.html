@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Family Doctor</title>
+    
+    <link rel="stylesheet" href="familydoctor.css">
+</head>
+<body>
+    
+    <div class="logo">
+            <div class="log">
+            
+                </div>
+        <div class="text">
+            Nothern
+        </div>
+        <div class="medi">
+            Medicine
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="togglebtn" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+           <li><a href="csseffecthover.html">Home</a></li>
+           <li><a href="">Medicine</a></li>
+           <li><a href="">Team</a></li>
+           <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div class="new">
+        <div class="slidershow">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <div class="slide s1">
+                        <img src="caminar1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="caminar2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="caminar3.jpg" alt="">
+                </div>
+            </div>
+        </div>   
+    </div>     
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
+
+    <script type="text/javascript">
+        function toggleSidebar()
+        {
+            document.getElementById("sidebar").classList.toggle('active');
+        }
+        </script>
+       
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="cpro.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+        <div class="menu">
+            <div>FamDoc Machine</div>
+          <div> <a href="">Home</a></div>
+          <div> <a href="">Medicines</a></div>
+          <div> <a href="">Health Tips</a></div>
+          <div> <a href="">About Machine</a></div>
+          <div> <a href="">Feedback</a></div>
+
+        </div>
+       <div class="doctor">
+            <div class="doctors">
+                    <div class="help">
+                        Helping You 
+                    </div>
+                    <div class="stay">
+                        Stay Happy One
+                    </div>
+                    <div class="hope">
+                        EVERYDAY WE BRING HOPE AND SMILE TO PATIENT 
+                    </div>
+                    <div class="here">
+                        We Care
+                    </div>
+                    <div class="about">
+                        About Your Health
+                    </div>
+                    <div class="your">
+                        Your Health is Our Priority And Comprehensive   
+                    </div>
+                    <div class="we">
+                        Doctor Recommended Medicines
+                    </div>
+                    <div class="will">
+                        Will Be Provided  To You
+                    </div>
+                   </div>
+                   
+       </div>
+       <div  class="third">
+           <div  data-aos="fade-up"
+           data-aos-duration="3000"  class="one">
+               Qualified Doctor
+               <div class="para">
+                    Here Medicines provided To you are recommended by the Qualif    ied Doctor's. All Doctor's has a experience of more than 10 years. They have done thousands of operations and surgeries.
+
+               </div>
+            </div>
+           <div class="two">Emergency
+               <div class="para">
+                    An emergency is any medical problem that could cause death or permanent injury if not treated quickly. Severe pain in some instances can also be a medical emergency, such as the pain. Here will we provide you phone number of the closest Hospital so that they can help you. Here a first aid kit will be also be provide to you , like in case of excess bleedings   
+               </div>
+           </div>
+           <div class="three">Outdoor Survices</div>
+           <div class="four">24 Hours Services</div>
+       </div>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init(
+                {
+                    duration : 2000           }
+            );
+            
+          </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+</body>
+
+</html>

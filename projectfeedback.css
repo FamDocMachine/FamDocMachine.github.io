@@ -1,0 +1,209 @@
+.contact-title
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    color: black;
+}
+.contact-title h1
+{
+    position: relative;
+    top: 490px;
+    left: 250px;
+    font-size: 32px;
+    line-height: 10px;
+    height: 50px;
+    width: 50%;
+}
+.contact-title h2
+{
+    position: relative;
+    top: 360px;
+    left: -60px;
+    font-size: 16px;
+    height: 5px;
+    width: 50%;
+    color: black;
+}
+form
+{
+    position: relative;
+    top: 450px;
+    left: 100px;
+    width: 40%;
+    height: 400px;
+    /* background: gray; */
+
+}
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    
+    /* color: white; */
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input
+{
+    height: 45px;
+    /* color: aqua; */
+}
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+form .submit:hover
+{   
+    background-color: #f44336;
+    cursor: pointer;
+}
+.feedbackpic
+{
+    position: relative;
+    top: -200px;
+    left: 750px;
+    height: 500px;
+    width: 50%;
+    background: gray;
+    background: url("feedbackk.png");
+    background-size: cover;
+}
+.y
+{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    height: 20px;
+    width: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    animation: y 5s infinite ;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    color: black;
+}
+@keyframes y
+{
+    0%
+    {
+        opacity: 0;
+        top: 0;
+    }
+    50%
+    {
+        opacity: 1;
+        top: 200px;
+    }
+    75%
+    {
+        opacity: 0.5;
+        top: 130px;
+        color: white;
+    }
+    100%
+    {
+        opacity: 1;
+        top: 100px;
+    }
+}
+.f
+{
+    position: absolute;
+    top: 100px;
+    left: 290px;
+    height: 20px;
+    width: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    /* animation: f 10s infinite; */
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    color: black;
+    animation: f 5s infinite;
+}
+@keyframes f
+{
+    0%
+    {
+        opacity: 0;
+        top: 0;
+    }
+    50%
+    {
+        opacity: 1;
+        top: 200px;
+    }
+    75%
+    {
+        opacity: 0.5;
+        top: 290px;
+        color: white;
+    }
+    100%
+    {
+        opacity: 1;
+        top: 100px;
+    }
+}
+
+.p
+{
+    position: absolute;
+    top: 100px;
+    left: 490px;
+    height: 20px;
+    width: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    /* animation: p 10s infinite; */
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    color: black;
+    animation: p 5s infinite;
+}
+@keyframes p
+{
+    0%
+    {
+        opacity: 0;
+        top: 0;
+        animation-play-state: paused;
+        
+    }
+    50%
+    {
+        opacity: 1;
+        top: 200px;
+    }
+    75%
+    {
+        opacity: 0.5;
+        top: 90px;
+        animation-play-state: paused;
+        color: white;
+    }
+    100%
+    {
+        opacity: 1;
+        top: 100px;
+    }
+}

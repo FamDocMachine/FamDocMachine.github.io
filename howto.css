@@ -1,0 +1,57 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+.first
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.first .image
+{
+    position: absolute;
+    top:   0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.first .image img
+{
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+background-size: 100%;
+}
+.text
+{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    box-shadow: 2px 2px 2px 2px gray;
+    /* background: blue; */
+}
+.about
+{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+.write
+{
+    margin-top: 60px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 1px 1px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}

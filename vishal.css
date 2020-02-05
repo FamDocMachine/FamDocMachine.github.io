@@ -1,0 +1,24 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.main
+{
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
+.vishal
+{
+    height: 100px;
+    width: 100%;
+    background: blue;
+}
+.vishal1
+{
+    height: 100px;
+    width: 100%;
+    background: pink;
+    float: right;
+}
